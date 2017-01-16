@@ -836,7 +836,7 @@
             </idm>
         </component>
 
-        <!--scatter-->
+        <!--regression-datalet-->
         <component>
             <name>regression-datalet</name>
             <type>scatter</type>
@@ -893,6 +893,138 @@
                                 <item>false</item>
                             </list>
                         </input>
+
+                    </layouts>
+                </inputs>
+            </idm>
+        </component>
+
+        <!--scatterplot-matrix-datalet-->
+        <component>
+            <name>scatterplot-matrix-datalet</name>
+            <type>scatter</type>
+            <idm>
+                <inputs>
+                    <input>
+                        <name>Numeric1Variable</name>
+                        <description>1VariableDescription</description>
+                        <type>NUMBER</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>Numeric2Variable</name>
+                        <description>2VariableDescription</description>
+                        <type>NUMBER</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>Numeric3Variable</name>
+                        <description>3VariableDescription</description>
+                        <type>NUMBER</type>
+                        <selection>?</selection>
+                    </input>
+                    <input>
+                        <name>Numeric4Variable</name>
+                        <description>4VariableDescription</description>
+                        <type>NUMBER</type>
+                        <selection>?</selection>
+                    </input>
+                    <input>
+                        <name>Categories</name>
+                        <description>CategoriesDescription</description>
+                        <type>TEXT</type>
+                        <selection>?</selection>
+                    </input>
+                    <layouts>
+
+                    </layouts>
+                </inputs>
+            </idm>
+        </component>
+
+        <!--histogram-datalet-->
+        <component>
+            <name>histogram-datalet</name>
+            <type>basic</type>
+            <idm>
+                <inputs>
+                    <input>
+                        <name>NumericXAxis</name>
+                        <description>XAxisDescription</description>
+                        <type>NUMBER</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>Categories</name>
+                        <description>CategoriesDescription</description>
+                        <type>TEXT</type>
+                        <selection>?</selection>
+                    </input>
+                    <layouts>
+                        <input>
+                            <name>x-axis-label</name>
+                            <description>XAxisLabelDescription</description>
+                            <type>TEXT</type>
+                            <selection>1</selection>
+                        </input>
+                        <input>
+                            <name>y-axis-label</name>
+                            <description>YAxisLabelDescription</description>
+                            <type>TEXT</type>
+                            <selection>1</selection>
+                        </input>
+                        <input>
+                            <name>frequency</name>
+                            <description>frequencyDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>true</item>
+                                <item>false</item>
+                            </list>
+                        </input>
+                    </layouts>
+                </inputs>
+            </idm>
+        </component>
+
+        <!--correlation-matrix-datalet-->
+        <component>
+            <name>correlation-matrix-datalet</name>
+            <type>basic</type>
+            <idm>
+                <inputs>
+                    <input>
+                        <name>Numeric1Variable</name>
+                        <description>1VariableDescription</description>
+                        <type>NUMBER</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>Numeric2Variable</name>
+                        <description>2VariableDescription</description>
+                        <type>NUMBER</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>Numeric3Variable</name>
+                        <description>3VariableDescription</description>
+                        <type>NUMBER</type>
+                        <selection>?</selection>
+                    </input>
+                    <input>
+                        <name>Numeric4Variable</name>
+                        <description>4VariableDescription</description>
+                        <type>NUMBER</type>
+                        <selection>?</selection>
+                    </input>
+                    <input>
+                        <name>Numeric5Variable</name>
+                        <description>5VariableDescription</description>
+                        <type>NUMBER</type>
+                        <selection>?</selection>
+                    </input>
+                    <layouts>
 
                     </layouts>
                 </inputs>
